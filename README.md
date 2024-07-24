@@ -29,7 +29,7 @@ The setpoint (output from mvp mission helm) will be determined based on the acti
 ### [`mvp_msgs`](https://github.com/uri-ocean-robotics/mvp_msgs)
 MVP msgs contains all the customized ROS messages and services for MVP framework.
 
-### [`mvp_utilites](https://github.com/uri-ocean-robotics/mvp_utilities)
+### [`mvp_utilites`](https://github.com/uri-ocean-robotics/mvp_utilities)
 MVP utilies contains a list of nodes for sensor processing either in the virtual environment or on the real vehicle. ***For example***, there are tools for imu calibration and filtering, and nodes for publishing the TF between world and odom based on GPS fix and local odometry.
 
 ### [`mvp_hardware_drivers](https://github.com/uri-ocean-robotics/mvp_hardware_drivers)
