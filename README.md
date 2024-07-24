@@ -21,5 +21,9 @@ Users could configure different states (position, euler angle, angular and linea
 It leverages the TF packages to transform any set-points into the user-defined frame and child frame before the PID controller.
 The thruster allocation matrix is created automatically from TF-trees for different thrusters, maximizing the scalabibility and customizability of the controller.
 
+### ['mvp_mission`](https://github.com/uri-ocean-robotics/mvp_mission)
+MVP mission is the guidance system which commands desired set points for vehicle poses based on higher-level behaviors, such as path following and teleoperation.
+The core of MVP mission uses a user-configurable ***finite-state machine*** where multiple behaviors can be attached to a state with different priority-levels. 
+The setpoint (output from mvp mission helm) will be determined based on the active behaviors for each degree-of-freedom. ***For example***, in path-3D state, if periodical-surfacing behavior is actively sending desired depth with a higher priority than the path-following behavior, the set-point of vehicle depth will be from the periodical surfacing but heading, pitch and surge set point will still from the path-following behavior.
 
 
