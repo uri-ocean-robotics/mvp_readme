@@ -43,7 +43,7 @@ And every person in the same network can access the GUI through a web link.
 ### [world_of_stonefish](https://github.com/uri-ocean-robotics/world_of_stonefish)
 This repository contains configuration and drivers (ROS2 only) for interfacing with Stonefish ROS wrapper.
 
-### [`stonefish_mvp`](https://github.com/uri-ocean-robotics/stonefish_mvp)
+### [stonefish_mvp](https://github.com/uri-ocean-robotics/stonefish_mvp)
 This is a ROS wrapper for stonefish simulator. This repository is depreciated in our MVP framework in ROS2-jazzy, and we will directly use the official `stonefish_ros2` wrapper.
 
 ### [stonefish](https://github.com/uri-ocean-robotics/stonefish)
