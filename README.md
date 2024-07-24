@@ -10,6 +10,7 @@ The MVP framework is under GPL-3.0 license.
 The current releases are tested in ROS-noetic, Ubuntu 20.04, forked Stonefish simulator, and our Stonefish MVP wrapper.
 We are migrating to ROS2-Jazzy by the end of 2024.
 ROS2 version will be compatible with up-to-date Stonefish simulator, and Stonefish ROS2 wrapper.
+The MVP framework will be actively maintained at least in the next 5 years with the support from NSF grants.
 
 ## Related repositories.
 MVP are managed in a list of repositories as listed below.
