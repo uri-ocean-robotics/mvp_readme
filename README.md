@@ -1,4 +1,4 @@
-# MVP Fraemwork instructions (ROS-noetic)
+# MVP Framework instructions (ROS-noetic)
 
 ## Introduction
 Marine vehicle packages (MVP) is a ROS-based Guidance and Control framework designed for marine robots. 
