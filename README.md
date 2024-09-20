@@ -56,3 +56,6 @@ ROS2 version of the MVP will be compatible with the up-to-date stonefish.
 We have multiple AUVs running MVP framework, the most up-to-date instruction can be found under [alpha_rise_auv](https://github.com/GSO-soslab/alpha_rise_auv) where you can find instructions for running a simulation environment.
 
 
+## AUV Hardware resources.
+The mechanical and electronics design of the AUV ALPHA can be found under our [hardware release repository](https://github.com/GSO-soslab/alpha_hardware_release)
+
